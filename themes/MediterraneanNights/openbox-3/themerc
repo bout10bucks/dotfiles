@@ -1,0 +1,127 @@
+#Shiki OpenBox3 theme.
+#Based on Elegant Brit and Nodoka Orange Black.
+
+# Window geometry
+padding.width: 2
+border.width: 1
+window.client.padding.width: 1
+window.client.padding.height: 1
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 0
+menu.overlap: -10
+
+# Border colors
+window.active.border.color: #616161
+window.inactive.border.color: #616161
+menu.border.color: #616161
+window.active.client.color: #616161
+window.inactive.client.color: #616161
+
+# Text shadows
+window.active.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+window.inactive.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+menu.items.font: shadow=y:shadowtint=20:shadowoffset=1
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: center
+
+# Active window
+window.active.title.bg: gradient flat vertical
+window.active.title.bg.color: #696969
+window.active.title.bg.colorTo: #616161
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #e6e6e6
+
+
+window.active.handle.bg: Flat Gradient Vertical
+window.active.handle.bg.color: #3b3b3b
+window.active.handle.bg.colorTo: #3b3b3b
+
+window.active.grip.bg: Flat Solid
+window.active.grip.bg.color: #3b3b3b
+
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #e6e6e6
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #999999
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #999999
+
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #999999
+
+window.active.button.hover.bg: parentrelative
+window.active.button.hover.image.color: #E17a7a
+
+# Inactive windows
+window.inactive.title.bg: Flat Gradient Vertical
+window.inactive.title.bg.color: #696969
+window.inactive.title.bg.colorTo: #616161
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #9c9c9c
+
+window.inactive.handle.bg: Flat Gradient Vertical
+window.inactive.handle.bg.color: #3b3b3b
+window.inactive.handle.bg.colorTo: #3b3b3b
+
+window.inactive.grip.bg: Flat Gradient Vertical
+window.inactive.grip.bg.color: #3b3b3b
+window.inactive.grip.bg.colorTo: #3b3b3b
+
+window.inactive.button.unpressed.bg: parentrelative
+
+window.inactive.button.unpressed.image.color: #9c9c9c
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #3e3e3e
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #3e3e3e
+
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.image.color: #3e3e3e
+
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #e17a7a
+
+# Menus
+menu.title.bg:flat solid
+menu.title.bg.color: #616161
+menu.title.bg.colorTo: #616161
+menu.title.bg.border.color: #616161
+menu.title.text.color: #e6e6e6
+menu.title.text.justify: center
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #616161
+menu.items.text.color: #e6e6e6
+menu.items.text.justify: left
+menu.items.disabled.text.color: #333333
+
+menu.items.active.bg: flat gradient vertical
+menu.items.active.bg.color: #4a6888
+menu.items.active.bg.colorTo: #4d7197
+menu.items.active.text.color: #ffffff
+menu.items.active.disabled.text.color: #333333
+
+#osd
+osd.border.width: 1
+osd.border.color:  #404040
+
+osd.bg: Flat Solid
+osd.bg.color: #616161
+
+osd.label.text.color: #e6e6e6
+
+osd.hilight.bg: Flat Solid
+osd.hilight.bg.color: #576D85
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #2a2a2a
