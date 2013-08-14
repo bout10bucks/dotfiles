@@ -8,8 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias bb='sudo pacman'
-alias screen='/home/bout10bucks/Dropbox/Scripts/screenplay.sh'
-alias cleardbup='jhead -n/home/bout10bucks/Dropbox/Pictures/%Y/%m/%Y.%m.%d-%H.%M.%S ~/Dropbox/Camera\ Uploads/'
+alias cleardbup='jhead -n/home/$USER/Dropbox/Pictures/%Y/%m/%Y.%m.%d-%H.%M.%S ~/Dropbox/Camera\ Uploads/'
 complete -cf sudo
 complete -cf man
 shopt -s checkwinsize
