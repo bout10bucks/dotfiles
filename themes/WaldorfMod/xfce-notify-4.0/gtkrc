@@ -22,7 +22,7 @@ style "waldorf-notify-button"
 
 style "waldorf-notify-text"
 {
-    font_name = "Droid Sans Mono 11"
+    font_name = "Ubuntu Mono 10"
     fg[NORMAL] = "#ffffff"
     GtkWidget::link-color = "#a7a7a7"
 }
