@@ -6,20 +6,26 @@
 # ID 1
 rounded = 0
 border_width = 0
-background_color = #000000 46
+background_color = #000000 60
 border_color = #FFFFFF 0
 
 # ID 2
 rounded = 0
 border_width = 0
-background_color = #000000 24
+background_color = #000000 27
 border_color = #FFFFFF 40
 
 # ID 3
 rounded = 0
 border_width = 0
-background_color = #000000 100
+background_color = #3D3D3D 100
 border_color = #FFFFFF 60
+
+# ID 4
+rounded = 0
+border_width = 3
+background_color = #000000 100
+border_color = #000000 100
 
 # Panel
 panel_monitor = all
@@ -30,7 +36,7 @@ panel_padding = 0 0 0
 panel_dock = 0
 wm_menu = 1
 panel_layer = top
-panel_background_id = 0
+panel_background_id = 2
 
 # Panel Autohide
 autohide = 0
@@ -51,21 +57,21 @@ task_icon = 1
 task_text = 1
 task_centered = 0
 task_maximum_size = 200 24
-task_padding = 5 0
+task_padding = 2 0
 task_background_id = 0
-task_active_background_id = 1
+task_active_background_id = 2
 task_urgent_background_id = 2
 task_iconified_background_id = 0
 
 # Task Icons
-task_icon_asb = 50 0 0
+task_icon_asb = 80 0 0
 task_active_icon_asb = 100 0 0
 task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 70 0 0
 
 # Fonts
-task_font = Sans 9
-task_font_color = #FFFFFF 40
+task_font = Sans 10
+task_font_color = #FFFFFF 62
 task_active_font_color = #FFFFFF 100
 task_urgent_font_color = #FFFFFF 80
 task_iconified_font_color = #FFFFFF 60
@@ -86,15 +92,16 @@ clock_font_color = #FFFFFF 80
 clock_tooltip = %A %B %d
 clock_padding = 3 0
 clock_background_id = 0
-clock_rclick_command = ~/Dropbox/Scripts/backlight
+clock_lclick_command = cal | xargs -0 notify-send
+clock_rclick_command = killall tint2; tint2 &
 
 # Tooltips
 tooltip = 1
-tooltip_padding = 4 4
+tooltip_padding = 1 1
 tooltip_show_timeout = 0.7
 tooltip_hide_timeout = 0.3
-tooltip_background_id = 3
-tooltip_font = Sans 9
+tooltip_background_id = 4
+tooltip_font = Sans 10
 tooltip_font_color = #FFFFFF 80
 
 # Mouse
