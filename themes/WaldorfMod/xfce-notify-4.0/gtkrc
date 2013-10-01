@@ -7,7 +7,7 @@ style "waldorf-notify-window"
 {
     bg[NORMAL] = "#111" 
     XfceNotifyWindow::border-color = "#ffffff"
-    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-radius = 0 ##10.0
     XfceNotifyWindow::border-width = 0
 }
 class "XfceNotifyWindow" style "waldorf-notify-window"
@@ -22,6 +22,7 @@ style "waldorf-notify-button"
 
 style "waldorf-notify-text"
 {
+    font_name = "Droid Sans Mono 11"
     fg[NORMAL] = "#ffffff"
     GtkWidget::link-color = "#a7a7a7"
 }
