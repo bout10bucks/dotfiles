@@ -13,9 +13,6 @@ menu.separator.padding.height: 1
 menu.separator.padding.width: 1
 menu.title.bg: ParentRelative Flat
 menu.title.text.color: #FFFFFF
-osd.hilight.bg: Solid Flat
-osd.hilight.bg.color: #5077A2
-osd.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
 window.active.button.disabled.bg: ParentRelative Flat
 window.active.button.disabled.image.color: #686868
 window.active.button.hover.image.color: #E17A7A
