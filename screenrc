@@ -1,0 +1,31 @@
+#hardstatus alwayslastline "Host: %H Date: %D-%M-%Y: Load: %l "
+#kill startup message
+startup_message off
+term screen-256color
+defbce on
+attrcolor b ".I"
+defscrollback 1024
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+#termcapinfo xterm* ti@:te@
+hardstatus on
+hardstatus alwayslastline
+autodetach on
+backtick 1 0 0 wormulon -i wlp3s0
+backtick 2 0 0 /home/bout10bucks/Dropbox/Scripts/aur_count a
+backtick 3 0 0 /home/bout10bucks/Dropbox/Scripts/aur_count p
+termcapinfo xterm* ti@:te@
+
+screen 0 ranger
+
+hardstatus string "%{.kw} %-w%{bk}%n %t%{-}%+w %= %{.kB}%1` %{.kb}P:%3` A:%2` %M%d %c "
+#k    black
+#r    red
+#g    green
+#y    yellow
+#b    blue
+#m    magenta
+#c    cyan
+#w    white
+#d    default color
+#.    leave color unchanged
+
