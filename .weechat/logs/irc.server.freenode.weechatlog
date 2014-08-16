@@ -1,0 +1,74 @@
+2013-12-09 21:22:22	--	irc: connecting to server chat.freenode.net/6667...
+2013-12-09 21:22:22	--	irc: connected to chat.freenode.net/6667 (86.65.39.15)
+2013-12-09 21:22:22	--	pratchett.freenode.net (pratchett.freenode.net): *** Looking up your hostname...
+2013-12-09 21:22:22	--	pratchett.freenode.net (pratchett.freenode.net): *** Checking Ident
+2013-12-09 21:22:22	--	pratchett.freenode.net (pratchett.freenode.net): *** Found your hostname
+2013-12-09 21:22:28	--	pratchett.freenode.net (pratchett.freenode.net): *** No Ident response
+2013-12-09 21:22:28	--	Welcome to the freenode Internet Relay Chat Network bout10bucks
+2013-12-09 21:22:28	--	Your host is pratchett.freenode.net[192.168.25.107/6667], running version ircd-seven-1.1.3
+2013-12-09 21:22:28	--	This server was created Mon Dec 31 2012 at 13:37:43 PST
+2013-12-09 21:22:28	--	pratchett.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-12-09 21:22:28	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-12-09 21:22:28	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-12-09 21:22:28	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-12-09 21:22:28	--	There are 199 users and 81773 invisible on 28 servers
+2013-12-09 21:22:28	--	29 :IRC Operators online
+2013-12-09 21:22:28	--	17 :unknown connection(s)
+2013-12-09 21:22:28	--	53326 :channels formed
+2013-12-09 21:22:28	--	I have 5339 clients and 1 servers
+2013-12-09 21:22:28	--	5339 10296 :Current local users 5339, max 10296
+2013-12-09 21:22:28	--	81972 94669 :Current global users 81972, max 94669
+2013-12-09 21:22:28	--	Highest connection count: 10297 (10296 clients) (2708846 connections received)
+2013-12-09 21:22:28	--	- pratchett.freenode.net Message of the Day -
+2013-12-09 21:22:28	--	- Welcome to pratchett.freenode.net in Rennes, FR, EU.
+2013-12-09 21:22:28	--	- Thanks to: FSF-France (http://www.fsffrance.org) for sponsoring this server!
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- PRATCHETT, TERRY (1948-).  Born in Buckinghamshire, England,
+2013-12-09 21:22:28	--	- Pratchett is the famous author of the Discworld series of
+2013-12-09 21:22:28	--	- novels and, more recently, an active Alzheimer's Disease awareness
+2013-12-09 21:22:28	--	- campaigner.
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- Welcome to freenode - supporting the free and open source
+2013-12-09 21:22:28	--	- software communities since 1998.
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- By connecting to freenode you indicate that you have read and
+2013-12-09 21:22:28	--	- agree to adhere to our policies and procedures as per the
+2013-12-09 21:22:28	--	- website (http://freenode.net/).
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- We would like to remind you that unauthorised public logging
+2013-12-09 21:22:28	--	- of channels on the network is prohibited. Public channel
+2013-12-09 21:22:28	--	- logging should only take place where the channel owner(s) has
+2013-12-09 21:22:28	--	- requested this and users of the channel are all made aware
+2013-12-09 21:22:28	--	- (if you are publically logging your channel, you may wish to
+2013-12-09 21:22:28	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- freenode runs an open proxy scanner. For details on freenode
+2013-12-09 21:22:28	--	- network policy, please take a look at our policy page
+2013-12-09 21:22:28	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-12-09 21:22:28	--	- indicates your acceptance of this policy.
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- Please join #freenode for any network-related questions or
+2013-12-09 21:22:28	--	- queries, there are numerous freenode volunteers and helpful
+2013-12-09 21:22:28	--	- users who would be happy to try answer any questions you might
+2013-12-09 21:22:28	--	- have.
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- Check out www.fossevents.org to find out what is happening in
+2013-12-09 21:22:28	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-12-09 21:22:28	--	- real-life collaboration or bring a picnic and come join
+2013-12-09 21:22:28	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-12-09 21:22:28	--	- close to you.
+2013-12-09 21:22:28	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-12-09 21:22:28	--	- (http://osuosl.org/) and Private Internet Access
+2013-12-09 21:22:28	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-12-09 21:22:28	--	- long term support and dedication they show to the FOSS
+2013-12-09 21:22:28	--	- communities.
+2013-12-09 21:22:28	--	-
+2013-12-09 21:22:28	--	- ***************************************************************
+2013-12-09 21:22:28	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-12-09 21:22:28	--	- ***************************************************************
+2013-12-09 21:22:28	--	End of /MOTD command.
+2013-12-09 21:22:28	--	User mode [+i] by bout10bucks
+2013-12-09 21:22:28	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-12-09 21:22:48	--	MSG(nickserv): identify ******
+2013-12-09 21:22:48	--	NickServ (NickServ@services.): You are now identified for bout10bucks.
+2013-12-12 22:12:07	--	irc: disconnected from server

@@ -1,0 +1,60 @@
+2014-05-16 03:14:57	-->	bout10bucks (~bout10buc@ip70-178-239-103.ks.ks.cox.net) has joined #weechat
+2014-05-16 03:14:57	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-05-16 03:14:57	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 03:57:06
+2014-05-16 03:14:57	--	Channel #weechat: 509 nicks (4 ops, 0 voices, 505 normals)
+2014-05-16 03:14:57	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-05-16 03:14:57	--	URL for #weechat: http://www.weechat.org/
+2014-05-16 03:14:59	--	Mode #weechat [+cnrt]
+2014-05-16 03:14:59	--	Channel created on Sun, 26 Nov 2006 00:42:51
+2014-05-16 03:21:07	<--	luz1e (~lu.cy@unaffiliated/ne) has quit (Ping timeout: 258 seconds)
+2014-05-16 03:25:04	<--	asakura (~asakura@gateway/tor-sasl/asakura) has quit (Ping timeout: 272 seconds)
+2014-05-16 03:27:08	-->	dkoby (~dmitry@194.55.125.92.etth.tomsknet.ru) has joined #weechat
+2014-05-16 03:32:53	-->	ihre (~ihre@unaffiliated/ihre) has joined #weechat
+2014-05-16 03:33:52	bout10bucks	how can I get a list of buffers in status bar? there is buffer_name, but that's only current buffer
+2014-05-16 03:34:17	nils_2	/script install buffers.pl
+2014-05-16 03:34:33	nils_2	add item "buffers" to your status bar
+2014-05-16 03:35:24	bout10bucks	thank you, I have been staring at the user docs for a while and it's not all too clear
+2014-05-16 03:36:08	nils_2	can you specify what you mean?
+2014-05-16 03:37:38	bout10bucks	you answered my question, I just didn't see buffers.pl in the weechat user guide
+2014-05-16 03:37:54	-->	asakura (~asakura@gateway/tor-sasl/asakura) has joined #weechat
+2014-05-16 03:38:06	ihre	When migrating weechat to another system, is it as simple as copying everything from $HOME/.weechat to the same dir on another host?
+2014-05-16 03:39:24	nils_2	bout10bucks: a script can be or is an third party product. how should that be part of the users guide? ;-)
+2014-05-16 03:39:38	bout10bucks	true
+2014-05-16 03:39:41	nils_2	ihre: yes. simply copy the whole folder to your new machine
+2014-05-16 03:40:19	farn	ihre: you might want to make sure that the weechat version on the target system isn't older than the current one
+2014-05-16 03:42:33	<--	ainmosni (~daniel@2001:470:1f0a:a07::dead:c0de) has quit (Ping timeout: 245 seconds)
+2014-05-16 03:43:17	harpyon	As long as the versions match it is
+2014-05-16 03:46:38	ihre	ok thanks, that shouldnt pose any problems :-)
+2014-05-16 03:50:32	<--	chandan (~chandan@122.248.161.59) has quit (Quit: WeeChat 0.4.3)
+2014-05-16 03:54:39	bout10bucks	nils_2: sorry to bother again, tried finding something on buffers.pl and well your name popped up, since I have buffers added to my status bar, how can I remove the sidebar?
+2014-05-16 04:03:35	-->	ainmosni (~daniel@2001:470:1f0a:a07::dead:c0de) has joined #weechat
+2014-05-16 04:06:04	stfn	bout10bucks: /bar hide buffers
+2014-05-16 04:06:18	bout10bucks	thank you
+2014-05-16 04:09:17	-->	CCfan (~ccfan@78.56.154.238) has joined #weechat
+2014-05-16 04:11:35	FiXato	also see /help bar to see what else you can do with bars :)
+2014-05-16 04:18:53	<--	ferreum (~ferreus@p5DC6C6CD.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-05-16 04:18:55	Ark444	Hello! Is it possible to enable autocompletion on common words using the aspell plugin ?
+2014-05-16 04:25:33	<--	pmo (~dark@pdpc/supporter/base/pmo) has quit (Quit: quit)
+2014-05-16 04:29:29	--	irc: disconnected from server
+2014-05-17 03:43:20	-->	bout10bucks (~bout10buc@ip70-178-239-103.ks.ks.cox.net) has joined #weechat
+2014-05-17 03:43:20	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-05-17 03:43:20	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 03:57:06
+2014-05-17 03:43:21	--	Channel #weechat: 497 nicks (4 ops, 0 voices, 493 normals)
+2014-05-17 03:43:21	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-05-17 03:43:21	--	URL for #weechat: http://www.weechat.org/
+2014-05-17 03:43:22	--	Mode #weechat [+cnrt]
+2014-05-17 03:43:23	--	Channel created on Sun, 26 Nov 2006 00:42:51
+2014-05-17 03:47:29	<--	ksh (~ksh@gateway/tor-sasl/skulls) has quit (Remote host closed the connection)
+2014-05-17 03:48:54	-->	ksh (~ksh@gateway/tor-sasl/skulls) has joined #weechat
+2014-05-17 04:16:56	-->	kelnoky (~shao@95-91-225-12-dynip.superkabel.de) has joined #weechat
+2014-05-17 04:20:47	<--	sharkbyte1 (~sharkbyte@unaffiliated/sharkbyte) has quit (Ping timeout: 255 seconds)
+2014-05-17 04:24:11	-->	diegovio1 (~diego@unaffiliated/diegoviola) has joined #weechat
+2014-05-17 04:25:39	--	diegoviola is now known as Guest81153
+2014-05-17 04:25:45	--	diegovio1 is now known as diegoviola
+2014-05-17 04:25:51	<--	Guest81153 (~diego@unaffiliated/diegoviola) has quit (Ping timeout: 252 seconds)
+2014-05-17 04:26:03	-->	stamina (~stamina@175-165-128-083.dynamic.caiway.nl) has joined #weechat
+2014-05-17 04:27:31	<--	Furai (~Furai@static.110.94.47.78.clients.your-server.de) has quit (Remote host closed the connection)
+2014-05-17 04:27:46	-->	Furai (~Furai@static.110.94.47.78.clients.your-server.de) has joined #weechat
+2014-05-17 04:35:41	<--	GoshaZa (~Gosha@h-61-117.a163.priv.bahnhof.se) has quit (Ping timeout: 265 seconds)
+2014-05-17 04:49:04	-->	GoshaZa (~Gosha@h-61-117.a163.priv.bahnhof.se) has joined #weechat
+2014-05-17 04:59:45	<--	bout10bucks (~bout10buc@ip70-178-239-103.ks.ks.cox.net) has left #weechat ("WeeChat 0.4.3")

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+list="
+$HOME/.bashrc
+$HOME/.bash_profile
+$HOME/.themes
+$HOME/.tmux.conf
+$HOME/.vimrc
+$HOME/.config/tint2
+$HOME/.weechat
+"
+for source in $list; do
+rsync -avzh $source $HOME/.dotfiles
+done

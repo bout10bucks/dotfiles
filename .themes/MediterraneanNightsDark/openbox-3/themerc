@@ -1,0 +1,62 @@
+#openbox themerc edited with obtheme
+border.color: #383838
+border.width: 0
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #5077A2
+menu.items.active.text.color: #FFFFFF
+menu.items.bg: Solid Flat
+menu.items.bg.color: #383838
+menu.items.disabled.text.color: #686868
+menu.items.font: shadow=y:shadowtint=30:shadowoffset=1
+menu.overlap.x: -3
+menu.separator.color: #686868
+menu.separator.padding.height: 1
+menu.separator.padding.width: 20
+menu.separator.width: 1
+menu.title.bg: ParentRelative Flat
+menu.title.text.color: #FFFFFF
+osd.hilight.bg: Solid Flat
+osd.hilight.bg.color: #5077A2
+osd.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+window.active.border.color: #484848
+window.active.button.disabled.bg: ParentRelative Flat
+window.active.button.disabled.image.color: #686868
+window.active.button.hover.image.color: #E17A7A
+window.active.button.pressed.bg: Solid Flat
+window.active.button.pressed.bg.color: #383838
+window.active.button.toggled.hover.bg: Solid Flat
+window.active.button.toggled.hover.bg.color: #383838
+window.active.button.toggled.hover.image.color: #E17A7A
+window.active.button.toggled.pressed.bg: ParentRelative Flat
+window.active.button.toggled.unpressed.bg: ParentRelative Flat
+window.active.button.unpressed.bg: ParentRelative Flat
+window.active.button.unpressed.image.color: #FFFFFF
+window.active.client.color: #383838
+window.active.grip.bg: Solid Flat
+window.active.grip.bg.color: #000000
+window.active.label.bg: ParentRelative Flat
+window.active.label.text.color: #FFFFFF
+window.active.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+window.active.title.bg: Solid Flat
+window.active.title.bg.color: #383838
+window.client.padding.width: 1
+window.handle.width: 1
+window.inactive.button.disabled.bg: ParentRelative Flat
+window.inactive.button.disabled.image.color: #383838
+window.inactive.button.hover.image.color: #E17A7A
+window.inactive.button.toggled.bg: ParentRelative Flat
+window.inactive.button.toggled.hover.image.color: #E17A7A
+window.inactive.button.toggled.image.color: #686868
+window.inactive.button.unpressed.bg: ParentRelative Flat
+window.inactive.button.unpressed.image.color: #686868
+window.inactive.client.color: #383838
+window.inactive.grip.bg: Solid Flat
+window.inactive.grip.bg.color: #383838
+window.inactive.handle.bg: Solid Flat
+window.inactive.handle.bg.color: #383838
+window.inactive.label.bg: ParentRelative Flat
+window.inactive.label.text.color: #686868
+window.inactive.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #383838
+window.label.text.justify: Center

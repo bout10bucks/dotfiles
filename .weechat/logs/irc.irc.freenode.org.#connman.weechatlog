@@ -1,0 +1,93 @@
+2014-06-11 04:45:41	-->	bout10bucks (~bout10buc@ip70-178-239-103.ks.ks.cox.net) has joined #connman
+2014-06-11 04:45:41	--	Topic for #connman is "Connection Manager"
+2014-06-11 04:45:41	--	Topic set by holtmann on Thu, 17 Apr 2008 16:44:02
+2014-06-11 04:45:41	--	Channel #connman: 47 nicks (0 ops, 0 voices, 47 normals)
+2014-06-11 04:45:44	--	Mode #connman [+cnt]
+2014-06-11 04:45:44	--	Channel created on Wed, 19 Mar 2008 15:27:02
+2014-06-11 04:49:36	bout10bucks	it's been awhile since I have looked, but is there a decent GUI for connman
+2014-06-11 05:20:41	DalekSec	cmst is good for changing settings, connman-ui isn't bad as a tray icon (cmst has one too, but slightly lacking.)
+2014-06-11 06:02:39	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Quit: Leaving.)
+2014-06-11 06:14:53	<--	DalekSec (unit193@ubuntu/member/unit193) has quit (Ping timeout: 265 seconds)
+2014-06-11 06:15:23	<--	kuyatzu (~kuyatzu@2a01:4f8:200:54a2::2) has quit (Ping timeout: 265 seconds)
+2014-06-11 06:15:27	-->	DalekSec (unit193@ubuntu/member/unit193) has joined #connman
+2014-06-11 06:16:53	<--	sraue (~stephan@xbmc/staff/sraue) has quit (Ping timeout: 265 seconds)
+2014-06-11 06:23:22	-->	sraue (~stephan@xbmc/staff/sraue) has joined #connman
+2014-06-11 06:23:22	<--	sraue (~stephan@xbmc/staff/sraue) has quit (Excess Flood)
+2014-06-11 06:23:27	-->	emaj (~emaj@179.234.209.135) has joined #connman
+2014-06-11 06:38:20	-->	hmallat (~hmallat@a91-152-217-187.elisa-laajakaista.fi) has joined #connman
+2014-06-11 06:57:41	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 06:58:14	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Client Quit)
+2014-06-11 07:21:27	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 07:27:30	<--	chengyi (~chengyi@27.17.16.90) has quit (Quit: Leaving)
+2014-06-11 07:30:32	<--	emaj (~emaj@179.234.209.135) has quit (Remote host closed the connection)
+2014-06-11 07:46:59	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Quit: Leaving.)
+2014-06-11 07:49:21	-->	kuyatzu (~kuyatzu@2a01:4f8:200:54a2::2) has joined #connman
+2014-06-11 07:59:56	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 08:00:37	-->	vcmg_ (~vcmg@212.118.209.82) has joined #connman
+2014-06-11 08:01:21	<--	vcmg (~vcmg@unaffiliated/vcmg) has quit (Ping timeout: 265 seconds)
+2014-06-11 08:04:07	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Ping timeout: 240 seconds)
+2014-06-11 08:05:56	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 08:06:21	<--	hmallat (~hmallat@a91-152-217-187.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2014-06-11 08:07:17	-->	emaj (emaj@nat/indt/x-ffoemtjixvxetvza) has joined #connman
+2014-06-11 08:07:19	-->	emaj_ (emaj@nat/indt/x-lanxwzhvwfzqazsm) has joined #connman
+2014-06-11 08:07:55	<--	emaj_ (emaj@nat/indt/x-lanxwzhvwfzqazsm) has quit (Client Quit)
+2014-06-11 08:09:50	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Client Quit)
+2014-06-11 08:12:11	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 08:13:30	--	vcmg_ is now known as vcmg
+2014-06-11 08:13:53	-->	sraue (~stephan@xbmc/staff/sraue) has joined #connman
+2014-06-11 08:16:31	-->	lizardo (lizardo@nat/indt/x-kbyqdeccndhouydt) has joined #connman
+2014-06-11 08:18:24	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Quit: Leaving.)
+2014-06-11 08:20:27	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 08:27:32	--	ronaldt is now known as ronaldt_
+2014-06-11 08:29:15	--	ronaldt_ is now known as ronaldt
+2014-06-11 09:00:28	<--	lufie (~lfiebach@95.81.177.34) has quit (Ping timeout: 260 seconds)
+2014-06-11 09:03:30	-->	laperie (~laperie@192.55.54.38) has joined #connman
+2014-06-11 09:07:42	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Quit: Leaving.)
+2014-06-11 09:55:33	<--	pfl (~pflykt@134.134.139.74) has quit (Ping timeout: 252 seconds)
+2014-06-11 11:05:07	<--	laperie (~laperie@192.55.54.38) has quit (Ping timeout: 240 seconds)
+2014-06-11 11:19:05	-->	pavlix (~pavlix@84.246.161.92) has joined #connman
+2014-06-11 11:23:50	<--	Nc_ (~nc@202.64-242-81.adsl-dyn.isp.belgacom.be) has quit (Quit: This computer has gone to sleep)
+2014-06-11 12:21:45	-->	Nc_ (~nc@202.64-242-81.adsl-dyn.isp.belgacom.be) has joined #connman
+2014-06-11 12:27:42	<--	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has quit (Quit: denkenz)
+2014-06-11 12:30:21	-->	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has joined #connman
+2014-06-11 12:32:14	<--	emaj (emaj@nat/indt/x-ffoemtjixvxetvza) has quit (Quit: Leaving)
+2014-06-11 12:32:46	-->	emaj (emaj@nat/indt/x-tpgzvkogynrhvojd) has joined #connman
+2014-06-11 12:36:58	<--	sameo (~samuel@192.55.54.42) has quit (Remote host closed the connection)
+2014-06-11 12:50:03	<--	emaj (emaj@nat/indt/x-tpgzvkogynrhvojd) has quit (Read error: No route to host)
+2014-06-11 13:03:11	<--	krau (~krau@bombadil.infradead.org) has quit (Excess Flood)
+2014-06-11 13:03:19	-->	krau (~krau@bombadil.infradead.org) has joined #connman
+2014-06-11 14:07:39	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 14:14:12	<--	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has quit (Quit: denkenz)
+2014-06-11 14:14:35	-->	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has joined #connman
+2014-06-11 14:25:44	<--	stefan_schmidt (~stefan@p20030048097C2E27F2DEF1FFFE6228F7.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2014-06-11 14:39:18	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Read error: Connection reset by peer)
+2014-06-11 15:14:21	<--	Nc_ (~nc@202.64-242-81.adsl-dyn.isp.belgacom.be) has quit (Quit: This computer has gone to sleep)
+2014-06-11 15:21:29	-->	osascha (~osascha@vproxy01.bmwgroup.com) has joined #connman
+2014-06-11 15:23:56	<--	osascha (~osascha@vproxy01.bmwgroup.com) has quit (Read error: Connection reset by peer)
+2014-06-11 15:39:53	<--	OlivierG (~OlivierG@134.134.139.70) has quit (*.net *.split)
+2014-06-11 15:39:55	<--	Luca256 (~luca@88.198.205.34) has quit (*.net *.split)
+2014-06-11 15:39:55	<--	deztructor (~deztructo@192.194.199.35) has quit (*.net *.split)
+2014-06-11 15:40:00	-->	deztructor (~deztructo@192.194.199.35) has joined #connman
+2014-06-11 15:40:00	-->	Luca256 (~luca@88.198.205.34) has joined #connman
+2014-06-11 15:40:21	-->	OlivierG (OlivierG@nat/intel/session) has joined #connman
+2014-06-11 15:40:23	<--	OlivierG (OlivierG@nat/intel/session) has quit (Changing host)
+2014-06-11 15:40:23	-->	OlivierG (OlivierG@nat/intel/x-dgmwbngjtbvkjgbn) has joined #connman
+2014-06-11 16:03:08	<--	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-06-11 16:09:55	<--	pavlix (~pavlix@84.246.161.92) has quit (Ping timeout: 240 seconds)
+2014-06-11 16:18:27	<--	andy_ (~andy@gentoo/contributor/andy-) has quit (*.net *.split)
+2014-06-11 16:18:53	-->	andy_ (~andy@gentoo/contributor/andy-) has joined #connman
+2014-06-11 16:32:39	<--	lizardo (lizardo@nat/indt/x-kbyqdeccndhouydt) has quit (Ping timeout: 252 seconds)
+2014-06-11 16:56:34	-->	sameo (samuel@nat/intel/x-preiitcscliwekeq) has joined #connman
+2014-06-11 17:47:52	-->	Slacker^ (~Slacker^@unaffiliated/slacker-/x-3945768) has joined #connman
+2014-06-11 17:48:01	Slacker^	hi guys
+2014-06-11 17:48:26	Slacker^	I seem to be running into possibly a problem with connman, when starting my box I see in the console this message;
+2014-06-11 17:48:42	Slacker^	Unknown group Network in messagesbus configuration file
+2014-06-11 17:49:14	Slacker^	Would this have anything to do with? /etc/dbus-1/system.d/connman.conf this line?
+2014-06-11 17:49:28	Slacker^	 <policy group="network">
+2014-06-11 17:50:25	<--	Slacker^ (~Slacker^@unaffiliated/slacker-/x-3945768) has left #connman
+2014-06-11 18:30:39	-->	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has joined #connman
+2014-06-11 19:11:18	<--	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-06-11 19:34:19	<--	sameo (samuel@nat/intel/x-preiitcscliwekeq) has quit (Ping timeout: 240 seconds)
+2014-06-11 19:46:13	-->	chengyi (~chengyi@27.17.16.90) has joined #connman
+2014-06-11 21:29:20	-->	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has joined #connman
+2014-06-11 21:58:29	<--	denkenz (~anonymous@cpe-173-172-73-19.austin.res.rr.com) has quit (Ping timeout: 264 seconds)
