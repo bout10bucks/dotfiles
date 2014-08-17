@@ -1,0 +1,28 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+#xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+compton --config ~/.config/compton.conf -b &
+tint2 &
+#nm-applet --sm-disable &
+nitrogen --restore &
+(sleep 1m && dropboxd start) &
+volti &
+redshift &
+thunar --daemon &
+roxterm -e screen &
+#roxterm -e tmux -2 new -n ranger ranger &
