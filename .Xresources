@@ -5,7 +5,7 @@
 ! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
 !-------------------------------------------------------------------------------
  
-!URxvt.depth: 32
+URxvt.depth: 32
 URxvt.geometry: 90x24
 URxvt.transparent: false
 URxvt.fading: 0
@@ -80,7 +80,7 @@ URxvt.intensityStyles: false
 !*color15: #fdf6e3
 
 !TomorrowNight
-#define t_background        #1d1f21
+#define t_background        [90]#1d1f21 
 #define t_current_line      #282a2e
 #define t_selection      	#373b41
 #define t_foreground      	#c5c8c6
@@ -95,7 +95,8 @@ URxvt.intensityStyles: false
 
 
 *.foreground:   t_foreground
-*.background:   t_background
+URxvt.background:   t_background
+*.background: #1d1f21
 *.cursorColor:  #aeafad
 
 ! Black / Grey
