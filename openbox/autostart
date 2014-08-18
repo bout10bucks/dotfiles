@@ -1,0 +1,14 @@
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+tint2 &
+#xfce4-panel &
+#nitrogen --restore &
+(sleep 1m && dropboxd start) &
+pasystray &
+#caffeine &
+redshift &
+thunar --daemon &
+#nm-applet &
+urxvtc -e tmux -2 new -n ranger ranger &
