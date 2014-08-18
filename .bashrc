@@ -7,15 +7,15 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias bb='yaourt'
+alias reboot='sudo systemctl reboot'
 alias t='todo.sh'
-alias steam-wine='WINEPREFIX=~/.PlayOnLinux/wineprefix/Steam/ WINEDEBUG=-all wine C:\\Program\ Files/Steam/Steam.exe >/dev/null 2>&1 &'
-#export SUDO_ASKPASS="$HOME/bin/dsudo"
+alias bb='yaourt'
+export SUDO_ASKPASS="/home/bout10bucks/bin/dsudo"
 complete -cf sudo
 complete -cf man
 shopt -s checkwinsize
 #VBOX_USB=usbfs
-#export PS1="\[$(tput bold)\]\h \W 
+#export PS1="\[$(tput bold)\]\h \W
 if [ -n "$SSH_CLIENT" ]; then text="[SSH]"
 fi
 if [[ $UID -ne 0 ]]; then

@@ -1,15 +1,14 @@
 #
 # ~/.bash_profile
 #
-export PATH=$PATH:~/bin
 export EDITOR=vim
-#LD_PRELOAD=/home/bout10bucks/Dropbox/mymemcpy.so
-#export LD_PRELOAD
+export PANEL_FIFO=/tmp/panel-fifo
+export PATH=$PATH:~/bin
+export MOZ_PLUGIN_PATH="/usr/lib/mozilla/plugins"
 #[[ -f ~/.bashrc ]] && . ~/.bashrc
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
-#keychain
 eval $(keychain --eval --agents ssh -Q --quiet id_rsa)
 # Start X at login
-#[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
+# [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx

@@ -24,6 +24,5 @@ set wrapscan
 set autoread
 set t_Co=256
 "colorscheme solarized 
-colorscheme desert
 filetype plugin on
 syntax on
